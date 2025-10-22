@@ -140,3 +140,22 @@ select:focus {
 .skip-link:focus {
 	top: 6px;
 }
+.cover {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: #222;
+	color: #fff;
+}
+.title {
+	font-size: 3rem;
+	text-transform: uppercase;
+	opacity: 0;
+	animation: fadeIn 2s forwards ease-in;
+}
+@keyframes fadeIn {
+	to {
+		opacity: 1;
+	}
+}
