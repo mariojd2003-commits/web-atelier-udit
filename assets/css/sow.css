@@ -47,3 +47,25 @@ nav ul li a:focus {
 		columns: 2;
 	}
 }
+
+/* ...existing code... */
+
+/* Hacer el menú de navegación blanco */
+header nav ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 1rem; }
+header nav a,
+header nav a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Estados interactivos */
+header nav a:hover,
+header nav a:focus {
+    color: #ffd966; /* color de hover opcional */
+    outline: none;
+}
+
+/* Si las reglas anteriores no aplican por especificidad, usar !important */
+header nav a { color: #ffffff !important; }
+
+/* ...existing code... */
