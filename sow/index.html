@@ -9,6 +9,35 @@
 		<title>Some Outstanding Webs – Análisis de Sitios Premiados</title>
 		<link rel="stylesheet" href="../assets/css/index.css" />
 		<link rel="stylesheet" href="../assets/css/sow.css" />
+		<style>
+		/* Responsive typography and spacing for analysis pages */
+		:root{ --max-width:900px; --base-gap:0.9rem; }
+		*{box-sizing:border-box;}
+		body{word-wrap:break-word; overflow-wrap:break-word;}
+		.analysis-text{ max-width:var(--max-width); margin:0.9rem auto; padding:1rem; display:block; background:transparent; }
+		.analysis-text article{ display:block; gap:var(--base-gap); }
+		.analysis-text h3{ font-size:1.05rem; margin:0.6rem 0 0.25rem; color:#111; }
+		.analysis-text p{ margin:0.25rem 0; line-height:1.55; font-size:1rem; color:#222; }
+		main{ padding:0 1rem 2rem; }
+		nav ul{ display:flex; flex-wrap:wrap; gap:0.4rem; }
+		header h1{ margin-bottom:0.4rem; }
+		/* Smaller headings for section titles to keep visual hierarchy */
+		section > h2{ font-size:1.4rem; margin-top:1rem; }
+
+		/* Media queries to avoid overlap and reduce sizes on small screens */
+		@media (max-width:768px){
+			.analysis-text{ padding:0.8rem; }
+			.analysis-text h3{ font-size:1rem; }
+			.analysis-text p{ font-size:0.98rem; }
+			section > h2{ font-size:1.25rem; }
+		}
+		@media (max-width:420px){
+			.analysis-text{ padding:0.6rem; }
+			.analysis-text h3{ font-size:0.95rem; }
+			.analysis-text p{ font-size:0.92rem; }
+			section > h2{ font-size:1.1rem; }
+		}
+		</style>
 	</head>
 	<body>
 		
@@ -33,156 +62,151 @@
 				<h2>PeachWeb.io</h2>
 
 				<div class="analysis-text">
-		<p>Selección
-Elegí analizar la página de PeachWeb.io porque me llamó mucho la atención su propuesta y su diseño. Es un sitio que promete crear páginas web 3D sin necesidad de programar, algo que me pareció muy innovador. Además, vi que ha ganado varios premios, así que me pareció una buena oportunidad para aprender observando cómo trabajan los sitios que destacan por su diseño y creatividad.
+					<article>
+						<h3>Selección</h3>
+						<p>Elegí analizar la página de PeachWeb.io porque me llamó mucho la atención su propuesta y su diseño. Es un sitio que promete crear páginas web 3D sin necesidad de programar, algo que me pareció muy innovador. Además, vi que ha ganado varios premios, así que me pareció una buena oportunidad para aprender observando cómo trabajan los sitios que destacan por su diseño y creatividad.</p>
 
-Impresión inicial
-La primera impresión que tuve fue de impacto, nunca había visto una web de esa manera. Desde que se abre la página, se nota que no es un sitio común. Tiene muchas animaciones, efectos de movimiento y un estilo futurista que combina a la perfección con el trasfondo narrativo generado por el pez. Da la sensación de estar viendo algo único. También me transmite profesionalidad, lo cual me hace verlo como un reto difícilmente replicable.
+						<h3>Impresión inicial</h3>
+						<p>La primera impresión que tuve fue de impacto, nunca había visto una web de esa manera. Desde que se abre la página, se nota que no es un sitio común. Tiene muchas animaciones, efectos de movimiento y un estilo futurista que combina a la perfección con el trasfondo narrativo generado por el pez. Da la sensación de estar viendo algo único y profesional.</p>
 
-Estructura
-La web está organizada de una forma bastante clara. En la parte de arriba hay un menú con las secciones principales como “Product”, “Use Cases”, “Pricing”, etc. A medida que haces scroll, la página te va contando de qué trata el producto, cómo funciona y muestra ejemplos reales. Me pareció fácil de seguir, aunque a veces las animaciones pueden distraer un poco o hacer que tardes más en encontrar algo específico.Además si miras mucho tiempo la página web debido a tantos estímulos tridimensionales puede llegar a ser molesto para la vista.
+						<h3>Estructura</h3>
+						<p>La web está organizada de forma bastante clara: en la parte superior hay un menú con secciones como “Product”, “Use Cases”, “Pricing”, etc. Al hacer scroll la página explica el producto, cómo funciona y muestra ejemplos reales. Es fácil de seguir, aunque a veces las animaciones pueden distraer o ralentizar la búsqueda de información específica.</p>
 
-Visual: Paleta, tipografía y branding
-El diseño visual me pareció muy atractivo. Usa colores oscuros con detalles en neón (como azul o violeta), lo que le da un estilo tecnológico y moderno. Las letras son limpias y fáciles de leer, y el logo combina bien con todo el diseño. En general, se nota que cuidan la estética y que quieren transmitir una imagen innovadora. Me gustó mucho la coherencia entre los colores, las tipografías y los efectos 3D.
+						<h3>Visual: Paleta, tipografía y branding</h3>
+						<p>El diseño visual es muy atractivo: colores oscuros con detalles en neón (azul o violeta) que aportan un estilo tecnológico y moderno. La tipografía es limpia y el logo encaja con el diseño. Se aprecia coherencia entre colores, tipografías y los efectos 3D.</p>
 
-Interacción
-El sitio tiene muchas animaciones y microefectos. Por ejemplo, cuando pasas el mouse por los botones o haces scroll, todo se mueve con suavidad. Es muy entretenido de usar y da la sensación de estar explorando algo interactivo. Sin embargo, creo que algunas animaciones podrían ser un poco más ligeras, porque a veces hacen que la navegación se sienta un poco lenta o pesada.
+						<h3>Interacción</h3>
+						<p>El sitio incluye numerosas animaciones y microefectos —por ejemplo, botones reactivos y scroll animado— que ofrecen una experiencia interactiva y fluida. No obstante, algunas animaciones podrían ser más ligeras para mejorar la sensación de velocidad.</p>
 
-Usabilidad
-En general, la web es clara y fácil de entender. El mensaje principal (“crea webs 3D sin código”) se capta enseguida. Las secciones están bien ordenadas y los botones importantes están visibles. Lo único que noté es que puede tardar un poco en cargar al principio, y eso podría ser un problema en dispositivos más lentos. También creo que podrían mejorar algunos aspectos de accesibilidad, como el tamaño del texto o las versiones para móviles o colores específicos para personas daltónicas.
+						<h3>Usabilidad</h3>
+						<p>En general la web es clara y el mensaje principal se entiende rápidamente. Las secciones están ordenadas y los botones importantes visibles. Sin embargo, la carga puede ser lenta al inicio, lo que afecta la experiencia en dispositivos más lentos, y se podrían mejorar aspectos de accesibilidad (tamaños de texto, contraste, versiones móviles).</p>
 
-Técnico
-Desde el punto de vista técnico, se nota que el sitio usa tecnologías avanzadas como WebGL y animaciones en 3D. Eso lo hace muy llamativo, pero también más pesado. La carga inicial tiene una animación que tarda un poco, y eso puede afectar la velocidad. No tengo herramientas para medirlo con precisión, pero seguramente sus métricas de rendimiento (como Core Web Vitals) no son perfectas por el peso de los efectos. Aun así, el resultado final es impresionante.
+						<h3>Técnico</h3>
+						<p>Tecnologías como WebGL y animaciones 3D hacen el sitio llamativo pero más pesado. La carga inicial con animación puede afectar métricas de rendimiento (Core Web Vitals). Aun así, el resultado es visualmente impresionante.</p>
 
-Criterios de excelencia
-Creo que PeachWeb destaca por su creatividad y diseño. Es un sitio que realmente busca ser diferente y mostrar algo nuevo. El contenido está bien explicado y la experiencia de usuario es atractiva, sobre todo para quienes se interesan en el mundo del diseño web. La única parte que podría mejorar es el equilibrio entre lo visual y lo técnico, para que sea igual de rápido que bonito.
+						<h3>Criterios de excelencia</h3>
+						<p>PeachWeb destaca por creatividad y diseño. El contenido está bien explicado y la experiencia es atractiva, aunque podría mejorar el equilibrio entre lo visual y lo técnico para optimizar velocidad y accesibilidad.</p>
 
-Conclusión
-En conclusión, PeachWeb.io me pareció un sitio muy inspirador. Sus puntos fuertes son el diseño, la originalidad y la experiencia interactiva, que lo hacen destacar desde el primer momento. Como puntos débiles, mencionaría la velocidad de carga y la accesibilidad, que podrían optimizarse un poco más.
-De este análisis aprendí que un buen diseño web no solo depende de lo visual, sino también de que funcione bien y sea accesible para todos. También me di cuenta de que los detalles técnicos (como la carga o el rendimiento) son tan importantes como la creatividad.
-</p>
-		<!-- más párrafos -->
-	</div>
+						<h3>Conclusión</h3>
+						<p>PeachWeb.io es un sitio inspirador: fuerte en diseño, originalidad y experiencia interactiva. Sus debilidades principales son la velocidad de carga y la accesibilidad, que podrían optimizarse. De este análisis aprendí que un buen diseño no solo depende de lo visual sino también de un rendimiento y accesibilidad adecuados.</p>
+					</article>
+				</div>
 
 
-				<!-- Contenido de análisis del sitio cornrevolution.resn -->
+					<!-- Contenido de análisis del sitio cornrevolution.resn -->
 			</section>
 
 			<section id="site-Cornrevolution.resn">
 				<h2>Cornrevolution.resn</h2>
 
-						<div class="analysis-text">
-		<p>Selección
-Para el segundo análisis elegí analizar la página Corn Revolutionized porque me pareció muy original que una web sobre maíz tuviera un diseño tan avanzado. Está hecha por una agencia llamada Resn, que ganó premios por este proyecto, y me pareció interesante ver cómo logran combinar tecnología, diseño y una historia visual tan diferente. Quise analizarla para aprender cómo se puede usar el diseño web para contar algo de forma creativa.
+					<div class="analysis-text">
+						<article>
+							<h3>Selección</h3>
+							<p>Elegí Corn Revolutionized porque me pareció original que una web sobre maíz tuviera un diseño tan avanzado. Está hecha por la agencia Resn, premiada por este proyecto, y quise analizar cómo combinan tecnología, diseño y una narración visual distinta.</p>
 
-Impresión inicial
-La web narra una historia en bucle que deja impresionado al cliente. Desde que se abre la página hay animaciones en 3D, movimientos con el scroll y una presentación muy cinematográfica. Me dio la sensación de estar viendo un tráiler o una experiencia interactiva más que una simple página informativa. Al igual que el anterior análisis, también me pareció un poco lenta al cargar, pero entendí que eso se debe a la cantidad de efectos que suelen tener este tipo de webs.
+							<h3>Impresión inicial</h3>
+							<p>La web narra una historia en bucle con animaciones en 3D y scroll cinematográfico. Da la sensación de estar ante una experiencia interactiva más que un sitio informativo. Como en otros casos, puede notarse algo de lentitud por la cantidad de efectos.</p>
 
-Estructura
-La página está organizada como una historia que se va descubriendo. No tiene muchas secciones ni un menú con muchas opciones, sino que al hacer scroll vas avanzando por diferentes escenas que explican cómo el maíz ha sido “revolucionado”. Cada parte tiene texto corto y visuales que se van moviendo. Es fácil de seguir, aunque si quieres buscar una información específica, puede ser difícil porque todo está dentro de una sola página larga.
+							<h3>Estructura</h3>
+							<p>La página funciona como una historia que se descubre al hacer scroll. No tiene muchas secciones separadas; cada escena contiene texto breve y visuales en movimiento. Es fácil de seguir pero puede ser difícil encontrar información concreta rápidamente.</p>
 
-Visual: Paleta, tipografía y branding
-El diseño visual usa colores oscuros y tonos verdes o dorados que combinan con el tema del maíz y la naturaleza, pero con un toque moderno. Las letras son grandes, en mayúsculas y fáciles de leer. El logo de Pioneer aparece discretamente, pero todo el estilo gráfico hace que se note la marca. En general, se ve muy profesional, como una mezcla entre arte y ciencia.
+							<h3>Visual: Paleta, tipografía y branding</h3>
+							<p>El diseño usa colores oscuros con tonos verdes y dorados que evocan el maíz y la naturaleza, pero con un toque moderno. Tipografías grandes y mayúsculas ayudan a la lectura y refuerzan la identidad gráfica.</p>
 
-Interacción
-La interacción es lo que más destaca. Cuando haces scroll, el contenido se mueve, aparecen partículas, y los modelos 3D cambian de forma. Es una experiencia muy fluida y entretenida. Me gustó porque demuestra que el usuario no solo “lee” el sitio, sino que participa en él. Además parte de los textos tienen animaciones personalizadas cuando pones el cursor encima.
+							<h3>Interacción</h3>
+							<p>La interacción es destacada: scroll que activa partículas y cambios en modelos 3D, animaciones al pasar el cursor y transiciones fluidas. El usuario participa activamente en la experiencia.</p>
 
-Usabilidad
-El sitio es claro en su mensaje y fácil de entender: muestra cómo la marca innova con el maíz. Sin embargo, la carga inicial es algo lenta y puede ser pesado para algunos dispositivos. No parece una web pensada para personas que solo quieren información rápida, sino más bien para mostrar una historia visual. En general, es usable, pero no muy práctica si tienes mala conexión o usas el móvil.
+							<h3>Usabilidad</h3>
+							<p>El mensaje es claro, pero la carga inicial puede resultar pesada en conexiones lentas y en móviles. La estructura tipo narrativa es ideal para impacto visual, no tanto para búsquedas rápidas de información.</p>
 
-Técnico
-Técnicamente se nota que está hecho con tecnologías avanzadas, probablemente con herramientas como WebGL o Three.js. Eso explica por qué las animaciones son tan buenas. El lado negativo es que este tipo de webs suelen ser más lentas y difíciles de mantener. Por último tiene la creación de espacios 3D que se aplican a prácticamente todas las escenas, es un ejemplo genial de lo que se puede hacer con la programación visual.
+							<h3>Técnico</h3>
+							<p>Probablemente usa WebGL/Three.js para los espacios 3D. Técnicamente es avanzado, pero esto incrementa el peso y la complejidad de mantenimiento.</p>
 
-Criterios de excelencia
-En cuanto a creatividad, este sitio es de los más originales que he visto. No se limita a mostrar información: la transforma en una experiencia visual. El contenido es claro, aunque no muy detallado, porque se centra más en impresionar que en explicar. La experiencia de usuario (UX) es buena si lo ves como algo artístico o promocional. En conjunto, cumple muy bien en creatividad y diseño.
+							<h3>Criterios de excelencia</h3>
+							<p>Muy creativo y original; transforma contenido en experiencia visual. Cumple en creatividad y diseño; en UX funciona bien como pieza artística.</p>
 
-Conclusión
-En conclusión, Corn Revolutionized me pareció una web impresionante y diferente. Sus puntos fuertes son el diseño, la creatividad y las animaciones, que la hacen única. Sus puntos débiles son la velocidad de carga y que no es muy práctica si solo buscas información rápida.
-De este análisis aprendí que una página web puede ser una forma de contar historias, no solo de mostrar texto. También entendí que cuando se usan muchos efectos visuales hay 
-</p>
-		<!-- más párrafos -->
-	</div>
+							<h3>Conclusión</h3>
+							<p>Corn Revolutionized es una web impresionante y diferente: fuerte en diseño y animaciones, pero mejorable en velocidad y practicidad para usuarios con conexiones limitadas.</p>
+						</article>
+					</div>
 
-	
-				<!-- Contenido de análisis del sitio Webby -->
+					<!-- Contenido de análisis del sitio Flabbergast Agency -->
 			</section>
 
 			<section id="site-Flabbergast Agency">
 				<h2>Flabbergast Agency</h2>
 
 				<div class="analysis-text">
-		<p>Selección
-Elegí analizar la página Flabbergast Agency porque me interesan los sitios de agencias de diseño. Este me llamó la atención por su estilo visual fuerte y porque fue premiado en páginas como Awwwards. Quise ver cómo una empresa que hace webs se presenta a sí misma y qué tan bien combina diseño, funcionalidad y comunicación.
+					<article>
+						<h3>Selección</h3>
+						<p>Elegí Flabbergast Agency por su estilo visual fuerte y porque fue premiada en sitios como Awwwards. Quise ver cómo una agencia se presenta y combina diseño, funcionalidad y comunicación.</p>
 
-Impresión inicial
-Al entrar, la web da una sensación moderna y profesional. El color rojo intenso y las fotos grandes de proyectos captan la atención enseguida. Se nota que la agencia quiere mostrar energía, creatividad y seguridad en su trabajo. No tiene efectos 3D ni animaciones exageradas, pero transmite un estilo limpio y de alta calidad.
+						<h3>Impresión inicial</h3>
+						<p>La web transmite modernidad y profesionalismo. El color rojo intenso y las imágenes de proyectos captan la atención. No abusa de 3D, pero muestra un estilo limpio y de alta calidad.</p>
 
-Estructura
-La estructura es bastante clara. Arriba hay un menú con secciones como Projects, Services, Culture y Contact. En la página principal se presentan los mensajes principales, los proyectos y una invitación a contactar. No me costó orientarme, lo cual me parece importante. Todo está bien ordenado y se entiende rápido qué hace la agencia.
+						<h3>Estructura</h3>
+						<p>La estructura es clara: menú con Projects, Services, Culture y Contact. La página principal presenta mensajes, proyectos y llamadas a la acción; es fácil orientarse.</p>
 
-Visual: Paleta, tipografía y branding
-El diseño visual me pareció muy atractivo y coherente. Usa una paleta basada en rojo, blanco y negro, lo que le da personalidad. La tipografía es moderna y sin adornos, lo que facilita la lectura. Las fotos son de alta calidad y ayudan a reforzar el estilo de la marca. En conjunto, el sitio se ve profesional, fuerte y con una identidad clara.
+						<h3>Visual: Paleta, tipografía y branding</h3>
+						<p>Paleta en rojo, blanco y negro con tipografía moderna y fotos de alta calidad. El sitio tiene identidad clara y profesional.</p>
 
-Interacción
-La interacción es sencilla pero efectiva. Las transiciones entre secciones son suaves y hay pequeños efectos al pasar el ratón sobre los elementos. No hay animaciones exageradas, lo cual me parece positivo porque mantiene la página ligera. Todo se siente fluido y bien cuidado.
+						<h3>Interacción</h3>
+						<p>Interacciones sencillas y eficaces: transiciones suaves y efectos hover. No hay animaciones pesadas, lo que mantiene la página ligera.</p>
 
-Usabilidad
-En cuanto a usabilidad, la web es clara y funcional. Se entiende rápido de qué trata, los textos son breves y las llamadas a la acción están bien ubicadas. Tal vez podría cargar un poco más rápido, sobre todo por las fotos grandes, pero en general funciona bien. El contraste de colores es bueno, aunque no sé si cumple con todas las normas de accesibilidad.
+						<h3>Usabilidad</h3>
+						<p>La web es clara y funcional: textos breves, CTAs bien ubicadas. Las imágenes grandes pueden afectar la carga, pero la navegación es cómoda.</p>
 
-Técnico
-Técnicamente se nota que está bien construida. No tiene efectos pesados ni animaciones que ralenticen la carga. Aun así, al tener imágenes grandes, el rendimiento podría mejorar un poco. Supongo que cumple bien en la mayoría de navegadores y dispositivos, pero no es una web ligera del todo.
+						<h3>Técnico</h3>
+						<p>No usa efectos pesados; sin embargo, las imágenes grandes podrían optimizarse para mejorar rendimiento.</p>
 
-Criterios de excelencia
-En creatividad cumple muy bien: el uso del rojo y la composición visual la hacen diferente. El contenido es directo y muestra lo necesario sin complicaciones. En experiencia de usuario (UX), la navegación es cómoda y agradable. No intenta impresionar con efectos, sino con orden y estilo, lo que me parece un acierto.
+						<h3>Criterios de excelencia</h3>
+						<p>Buen equilibrio entre creatividad y funcionalidad. Destaca por identidad visual y claridad en UX.</p>
 
-Conclusión
-En resumen, Flabbergast Agency me pareció una página muy bien hecha y equilibrada. Sus puntos fuertes son el diseño visual, la claridad y la coherencia. Sus posibles debilidades son la carga de imágenes pesadas y que podría mejorar un poco en accesibilidad.
-De este análisis aprendí que una web no necesita ser muy compleja para destacar: basta con tener una identidad visual fuerte, buena organización y una experiencia sencilla y fluida.
-</p>
-		<!-- más párrafos -->
-	</div>
+						<h3>Conclusión</h3>
+						<p>Flabbergast Agency es una página bien equilibrada: destaca por diseño y coherencia. Aprendí que no se necesita complejidad para destacar; basta con identidad y buena organización.</p>
+					</article>
+				</div>
 
 
-				<!-- Contenido de análisis del sitio Awwwards -->
+					<!-- Contenido de análisis del sitio Heimdall Power -->
 			</section>
 
 			<section id="site-Heimdall Power">
 				<h2>Heimdall Power</h2>
 				
 				<div class="analysis-text">
-		<p>Selección
-Elegí analizar la página de Heimdall Power porque me llamó la atención su estilo profesional y el tema que trata. Es una empresa que trabaja con tecnología para mejorar las redes eléctricas, usando sensores e inteligencia de datos. Me pareció interesante ver cómo una web puede explicar algo tan técnico de forma visual y clara.
+					<article>
+						<h3>Selección</h3>
+						<p>Elegí Heimdall Power por su estilo profesional y el tema técnico que trata: sensores e inteligencia de datos para redes eléctricas. Me interesó ver cómo presentan contenidos complejos de forma visual y clara.</p>
 
-Impresión inicial
-La primera impresión fue de seriedad y tecnología. Desde que entras, la página transmite que se trata de una empresa innovadora. Los colores oscuros y las animaciones suaves hacen que se vea moderna, pero sin exagerar. Me dio la sensación de confianza, como si realmente supieran lo que hacen. También me pareció que la web carga un poco despacio al principio, pero nada exagerado.
+						<h3>Impresión inicial</h3>
+						<p>La primera impresión es de seriedad y tecnología. Colores oscuros y animaciones suaves transmiten modernidad y confianza.</p>
 
-Estructura
-La estructura me pareció bien organizada y fácil de seguir. Arriba hay un menú con secciones como Solutions, Technology, Resources y About Us. En la página principal van presentando lo que hacen, sus productos y cómo ayudan a mejorar la red eléctrica. Todo está ordenado de manera lógica, así que no me perdí navegando. Me gustó que cada parte tiene poco texto y va directo al punto.
+						<h3>Estructura</h3>
+						<p>Buena organización: menú con Solutions, Technology, Resources y About Us. Textos breves y directos facilitan la comprensión.</p>
 
-Visual: Paleta, tipografía y branding
-El diseño visual me pareció muy profesional. Usa colores oscuros con detalles en naranja y blanco, que dan una sensación tecnológica y moderna. La tipografía es clara y fácil de leer. No hay demasiados colores ni decoraciones, lo cual hace que se vea limpia y elegante. Se nota que cuidan mucho la imagen de marca y que quieren transmitir innovación y confianza.
+						<h3>Visual: Paleta, tipografía y branding</h3>
+						<p>Uso de colores oscuros con detalles en naranja y blanco, tipografía clara y estética limpia que refuerzan la imagen profesional.</p>
 
-Interacción
-La web tiene algunas animaciones suaves cuando haces scroll o pasas el ratón por encima de los botones. No es una página con muchos efectos llamativos, pero los que tiene están bien hechos. Eso me gustó, porque la hace interactiva sin distraer. Las transiciones son fluidas y todo responde bien.
+						<h3>Interacción</h3>
+						<p>Animaciones suaves al hacer scroll y hover; son discretas pero bien ejecutadas, lo que evita distracciones.</p>
 
-Usabilidad
-En cuanto a usabilidad, me pareció muy clara. Es fácil entender qué ofrece la empresa y cómo lo hace. Los textos son cortos y las imágenes ayudan a comprender mejor las ideas. Lo único es que puede tardar un poco en cargar por las imágenes grandes, y en móvil algunas partes se ven un poco apretadas. Pero en general, navegar es cómodo y el mensaje principal se entiende rápido.
+						<h3>Usabilidad</h3>
+						<p>Fácil de entender: textos cortos y recursos visuales que apoyan el contenido. Puede tardar en cargar por imágenes grandes y en móvil algunas áreas se ven algo apretadas.</p>
 
-Técnico
-Técnicamente, el sitio se ve bien hecho y moderno. No sé mucho todavía de rendimiento web, pero se nota que usa tecnologías actuales y está bien optimizado. Aun así, por los efectos y las fotos grandes, imagino que podría mejorar un poco la velocidad. En general, se siente estable y profesional, lo cual es buena señal.
+						<h3>Técnico</h3>
+						<p>Bien construida y moderna; sin embargo, imágenes y efectos pueden requerir optimización para mejorar velocidad.</p>
 
-Criterios de excelencia
-En creatividad, la web cumple bien: toma un tema complejo y lo explica de forma sencilla y visual. El contenido es claro y está bien estructurado. En experiencia de usuario (UX), la navegación es fluida y el sitio se siente confiable. No busca impresionar con animaciones, sino comunicar bien, y eso me parece excelente.
+						<h3>Criterios de excelencia</h3>
+						<p>Clara en comunicación técnica y con buen UX; destaca por transmitir confianza y profesionalidad sin recurrir a demasiados efectos.</p>
 
-Conclusión
-En conclusión, Heimdall Power me pareció una página seria, moderna y bien hecha. Sus puntos fuertes son el diseño limpio, la organización clara y el mensaje profesional. Lo que podría mejorar un poco es la velocidad de carga y la adaptación en móvil.
-De este análisis aprendí que una web puede ser muy técnica y aun así resultar atractiva si está bien diseñada. También vi que no hace falta tener muchas animaciones o efectos para transmitir innovación: a veces la simplicidad y la claridad son lo más importante.</p>
-		<!-- más párrafos -->
-	</div>
-				<!-- Contenido de análisis del sitio Webby -->
+						<h3>Conclusión</h3>
+						<p>Heimdall Power es una página seria y bien diseñada. Aprendí que la simplicidad y claridad pueden transmitir innovación sin necesidad de efectos llamativos.</p>
+					</article>
+				</div>
+					<!-- Más secciones para FWA, CSS Design Awards, etc. -->
 			</section>
 
-			<!-- Más secciones para FWA, CSS Design Awards, etc. -->
 		</main>
 
 		<footer>
