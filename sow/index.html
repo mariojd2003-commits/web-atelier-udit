@@ -10,33 +10,37 @@
 		<link rel="stylesheet" href="../assets/css/reset.css" />
 		<link rel="stylesheet" href="../assets/css/sow.css" />
 		<style>
-		/* Responsive typography and spacing for analysis pages */
+		/* Styles to organize h3 texts into boxed headings inside analysis sections */
 		:root{ --max-width:900px; --base-gap:0.9rem; }
-		*{box-sizing:border-box;}
-		body{word-wrap:break-word; overflow-wrap:break-word;}
+		*{ box-sizing: border-box; }
 		.analysis-text{ max-width:var(--max-width); margin:0.9rem auto; padding:1rem; display:block; background:transparent; }
 		.analysis-text article{ display:block; gap:var(--base-gap); }
-		.analysis-text h3{ font-size:1.05rem; margin:0.6rem 0 0.25rem; color:#111; }
-		.analysis-text p{ margin:0.25rem 0; line-height:1.55; font-size:1rem; color:#222; }
-		main{ padding:0 1rem 2rem; }
-		nav ul{ display:flex; flex-wrap:wrap; gap:0.4rem; }
-		header h1{ margin-bottom:0.4rem; }
-		/* Smaller headings for section titles to keep visual hierarchy */
-		section > h2{ font-size:1.4rem; margin-top:1rem; }
-
-		/* Media queries to avoid overlap and reduce sizes on small screens */
+		/* Boxed h3: background, padding, rounded corners and subtle shadow */
+		.analysis-text article h3{
+			display:block;
+			background: rgba(0, 0, 0, 0.06);
+			color: #ffffff;
+			padding: 0.6rem 0.8rem;
+			border-radius: 8px;
+			margin: 0.6rem 0 0.25rem;
+			font-size: 1.05rem;
+			border: 1px solid rgba(255,255,255,0.08);
+			box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+		}
+		.analysis-text article p{ margin:0.25rem 0; line-height:1.55; color:#f0f0f0; }
+		/* Responsive adjustments */
 		@media (max-width:768px){
 			.analysis-text{ padding:0.8rem; }
-			.analysis-text h3{ font-size:1rem; }
-			.analysis-text p{ font-size:0.98rem; }
-			section > h2{ font-size:1.25rem; }
+			.analysis-text article h3{ font-size:1rem; padding:0.5rem 0.6rem; }
+			.analysis-text article p{ font-size:0.98rem; }
 		}
 		@media (max-width:420px){
 			.analysis-text{ padding:0.6rem; }
-			.analysis-text h3{ font-size:0.95rem; }
-			.analysis-text p{ font-size:0.92rem; }
-			section > h2{ font-size:1.1rem; }
+			.analysis-text article h3{ font-size:0.95rem; padding:0.45rem 0.5rem; }
+			.analysis-text article p{ font-size:0.92rem; }
 		}
+		/* Section titles in white for contrast on the dark background */
+		section > h2 { color: #ffffff; }
 		</style>
 	</head>
 	<body>
@@ -91,6 +95,7 @@
 						<p>PeachWeb.io es un sitio inspirador: fuerte en diseño, originalidad y experiencia interactiva. Sus debilidades principales son la velocidad de carga y la accesibilidad, que podrían optimizarse. De este análisis aprendí que un buen diseño no solo depende de lo visual sino también de un rendimiento y accesibilidad adecuados.</p>
 					</article>
 				</div>
+<iframe src="https://peachweb.io/" title="Sitio Awwwards" width="100%" height="400" loading="lazy"></iframe>
 
 
 					<!-- Contenido de análisis del sitio cornrevolution.resn -->
@@ -129,6 +134,7 @@
 							<p>Corn Revolutionized es una web impresionante y diferente: fuerte en diseño y animaciones, pero mejorable en velocidad y practicidad para usuarios con conexiones limitadas.</p>
 						</article>
 					</div>
+<iframe src="https://cornrevolution.resn.global/" title="Sitio Awwwards" width="100%" height="400" loading="lazy"></iframe>
 
 					<!-- Contenido de análisis del sitio Flabbergast Agency -->
 			</section>
@@ -166,6 +172,7 @@
 						<p>Flabbergast Agency es una página bien equilibrada: destaca por diseño y coherencia. Aprendí que no se necesita complejidad para destacar; basta con identidad y buena organización.</p>
 					</article>
 				</div>
+<iframe src="https://flabbergast.agency/.well-known/sgcaptcha/?r=%2F&y=ipr:72.14.201.122:1761239105.019" title="Sitio Awwwards" width="100%" height="400" loading="lazy"></iframe>
 
 
 					<!-- Contenido de análisis del sitio Heimdall Power -->
@@ -204,6 +211,8 @@
 						<p>Heimdall Power es una página seria y bien diseñada. Aprendí que la simplicidad y claridad pueden transmitir innovación sin necesidad de efectos llamativos.</p>
 					</article>
 				</div>
+				<iframe src="https://www.awwwards.com/sites/flabbergast-agency" title="Sitio Awwwards" width="100%" height="400" loading="lazy"></iframe>
+
 					<!-- Más secciones para FWA, CSS Design Awards, etc. -->
 			</section>
 
